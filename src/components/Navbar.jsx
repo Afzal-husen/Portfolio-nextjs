@@ -19,8 +19,14 @@ const Navbar = () => {
                             <li className={styles.page}>Projects</li>    
                             <li className={styles.page}>Experience</li>    
                             <li className={styles.page}>Contact</li>    
-                        </ul>    
+                        </ul>
                     </div>    
+                        {/* Hamburger */}
+                        <div className={styles.hamburger}>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                 </div>
             </nav>
         </>
