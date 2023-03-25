@@ -1,0 +1,49 @@
+.container {
+    background-color: #20262E;
+    padding: 0.3rem 1.2rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0;
+    font-weight: 600;
+    color: #E9E8E8;
+    cursor: pointer;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    transition: 0.5s all ease;
+}
+
+.logo:hover {
+    border-top: 2px solid #1a8cff;
+    border-bottom: 2px solid #1a8cff;
+}
+
+
+.pages ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+}
+
+.page {
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.9;
+    cursor: pointer;
+    padding: 0.2rem 0.8rem;
+    transition: 0.4s all ease;
+}
+
+.page:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 0.2rem;
+    background-color: #1a8cff;
+    box-shadow: 0 0 1px #1a8cff;
+}
