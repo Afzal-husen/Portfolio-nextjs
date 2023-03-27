@@ -1,5 +1,6 @@
 import Head from "next/head"
 import styles from "@/styles/Navbar.module.css"
+import Link from "next/link"
 
 const Navbar = () => {
     return(
@@ -10,15 +11,29 @@ const Navbar = () => {
             <nav className={styles.container}>
                 <div className={styles.wrapper}>
                     <div className="logo-wrapper">
-                        <h1 className={styles.logo}>&#9001; Afzal.Diwan &#9002;</h1>    
+                        <Link href="/Home">
+                            <h1 className={styles.logo}>
+                                &#9001; Afzal.Diwan &#9002;
+                            </h1>
+                        </Link>
                     </div>    
                     <div className={styles.pages}>
                         <ul>
-                            <li className={styles.page}>Home</li>    
-                            <li className={styles.page}>About Me</li>    
-                            <li className={styles.page}>Projects</li>    
-                            <li className={styles.page}>Experience</li>    
-                            <li className={styles.page}>Contact</li>    
+                            <Link href="/Home">
+                                <li className={styles.page}>Home</li>
+                            </Link>   
+                            <Link href="/About">
+                                <li className={styles.page}>About Me</li>
+                            </Link>   
+                            <Link href="/Projects">
+                                <li className={styles.page}>Projects</li>
+                            </Link>   
+                            <Link href="/Education">
+                                <li className={styles.page}>Education</li>
+                            </Link>   
+                            <Link href="/Contact">
+                                <li className={styles.page}>Contact</li>
+                            </Link>   
                         </ul>
                     </div>    
                         {/* Hamburger */}

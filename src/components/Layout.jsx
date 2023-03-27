@@ -1,9 +1,15 @@
-import styles from "@/styles/Layout.module.css"
+import Navbar from "./Navbar"
+import Head from "next/head"
 
 const Layout = (props) => {
-    console.log(props)
   return (
-    <div className={styles.container}>{props.children}</div>
+    <>
+    <Head>
+      <title>Afzal Diwan</title>
+    </Head>
+    <Navbar />
+    {props.children}
+    </>
   )
 }
 

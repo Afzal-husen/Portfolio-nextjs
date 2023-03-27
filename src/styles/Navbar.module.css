@@ -30,10 +30,10 @@
 
 .page {
     font-weight: 500;
-    color: #fff;
     opacity: 0.9;
     cursor: pointer;
     padding: 0.2rem 0.8rem;
+    color: #fff;
     transition: 0.4s all ease;
 }
 
@@ -63,6 +63,7 @@
 
 /* for tablets */
 @media only screen and (max-width: 769px) {
+
     .pages ul {
         display: none;
     }
@@ -81,4 +82,35 @@
     .hamburger {
         display: inline-flex;
     }
-}  
+
+    .logo {
+        font-size: 0.8rem;
+    }
+}
+
+/* for laptops */ 
+@media only screen and (min-width: 769px ) and (max-width: 1024px) {
+    .pages ul {
+        gap: 1rem;
+    }
+
+    .page {
+        font-size: 0.75rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+}
+
+/* for Desktop */ 
+@media only screen and (min-width: 1025px ) and (max-width: 1200px) {
+
+    .pages ul {
+        gap: 1.2rem;
+    }
+
+    .page {
+        font-size: 1.2rem;
+    }
+}

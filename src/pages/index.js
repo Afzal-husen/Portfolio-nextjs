@@ -1,13 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import Link from 'next/link'
-import Navbar from '@/components/Navbar'
-
 const inter = Inter({ subsets: ['latin'] })
+import Home from './Home'
 
-export default function Home() {
+export default function Index() {
   return (
     <>
       <Head>
@@ -17,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar />
+        <Home />
       </main>
     </>
   )
