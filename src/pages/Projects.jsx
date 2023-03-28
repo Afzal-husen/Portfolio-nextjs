@@ -1,7 +1,11 @@
+import DarkThemeLayout from "@/components/DarkThemeLayout"
+
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <DarkThemeLayout>
+      <div>Projects</div>
+    </DarkThemeLayout>
   )
 }
 

@@ -1,7 +1,11 @@
+import DarkThemeLayout from "@/components/DarkThemeLayout"
+
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <DarkThemeLayout>
+      <div>Contact</div>
+    </DarkThemeLayout>
   )
 }
 

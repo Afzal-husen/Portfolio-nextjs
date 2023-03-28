@@ -1,7 +1,11 @@
+import DarkThemeLayout from "@/components/DarkThemeLayout"
+
 
 const Education = () => {
   return (
-    <div>Experience</div>
+    <DarkThemeLayout>
+      <div>Experience</div>
+    </DarkThemeLayout>
   )
 }
 
