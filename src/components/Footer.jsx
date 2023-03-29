@@ -2,13 +2,13 @@ import styles from "@/styles/Footer.module.css"
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
+    <footer className={styles.container}>
         <div>
             <p className={styles.name}>Made with
              <span className={styles.heart}>&#10084;</span>
-              By Afzal Diwan</p>
+              By Afzal</p>
         </div>
-    </div>
+    </footer>
   )
 }
 

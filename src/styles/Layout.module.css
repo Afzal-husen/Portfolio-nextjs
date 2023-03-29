@@ -1,6 +1,4 @@
 .container {
-    width: 50vw;
-    padding: 0;
-    margin: 2rem auto;
-    background-color: aqua;
+    background-color: #222831;
+    min-height: 100vh;
   }
