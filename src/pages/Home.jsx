@@ -3,6 +3,7 @@ import Image from "next/image"
 import DarkThemeLayout from "@/components/DarkThemeLayout"
 import Details from "@/components/Details"
 import styles from "../styles/Home.module.css"
+import { GitHub, Twitter, LinkedIn, Google, Instagram } from "@mui/icons-material"
 
 const Home = () => {
   return (
@@ -12,8 +13,22 @@ const Home = () => {
         <div className={styles.wrapper}>
           <div className={styles.heading}>
             <div>
-              <h1>Hi I Am Afzal Diwan</h1>
-              <button>Contact Me</button>
+              <h2 className={styles.name}>Hello I Am <span>Afzal Diwan</span></h2>
+              <h2 className={styles.name}>A <span>MERN</span> Stack Developer</h2>
+              <h2 className={styles.name}>A <span>Learning</span> Enthusiast</h2>
+              <div className={styles.btn}>
+                {/* social handles */}
+                <div className={styles.icons}>
+                  <GitHub />
+                  <Twitter />
+                  <LinkedIn />
+                  <Google />
+                  <Instagram />
+                </div>
+                <button >
+                  Contact Me 
+                </button>
+              </div>
             </div>
           </div>
           <div className={styles.image}>

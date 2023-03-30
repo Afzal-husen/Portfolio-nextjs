@@ -15,6 +15,102 @@
     justify-content: center;
 }
 
+.name {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    color: #262626;
+}
+
+.name > span {
+    color: #0099cd;
+}
+
+.btn {
+    display: grid;
+    place-items: center;
+}
+
+.btn > button {
+    background-color: #0099cd;
+    padding: 0.7rem 1.4rem;
+    color: #fff;
+    border: 1.2px solid #F2F2F2;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    font-size: 1.2em;
+    transition: 0.5s all ease-in;
+    cursor: pointer;
+}
+
+.btn > button:hover {
+    background-color: #F2F2F2;
+    color: #0099cd;
+    border: 1.2px solid #0099cd;
+    box-shadow: 0 0 5px #0099cd;
+}
+
+.icons {
+    display: flex;
+    gap: 0.8rem;
+    color: #0099cd;
+    margin: 1.5rem 0;
+}
+
+.icons > :nth-child(1) {
+    color: #1f1f1f;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icons > :nth-child(1):hover {
+    box-shadow: 0 0 5px #777777;
+}
+
+.icons > :nth-child(2) {
+    color: #0099cd;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons > :nth-child(2):hover {
+    box-shadow: 0 0 5px #0099cd;
+}
+
+.icons > :nth-child(3) {
+    color: #0080ff;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icons > :nth-child(3):hover {
+    box-shadow: 0 0 5px #0080ff;
+}
+
+.icons > :nth-child(4) {
+    color: #c7006b;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons > :nth-child(4):hover {
+    box-shadow: 0 0 5px #c7006b;
+}
+
+.icons > :nth-child(5) {
+    color: #ff1593;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons > :nth-child(5):hover {
+    box-shadow: 0 0 5px #ff1593;
+}
+
+
 @media only screen and (max-width: 480px) {
     .container {
         flex-direction: column;
