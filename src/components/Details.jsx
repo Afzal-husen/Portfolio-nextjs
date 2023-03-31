@@ -14,6 +14,7 @@ const Details = () => {
                 width={400}
                 height={400}
                 quality={100}
+                loading="lazy"
               />
             </div>
             <div className={styles.head}>

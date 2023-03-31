@@ -20,8 +20,11 @@
 
 .img {
     flex: 0.5;
+    border: 1px solid black;
 }
 
 .head {
     flex: 0.5;
+    border: 1px solid black;
+
 }

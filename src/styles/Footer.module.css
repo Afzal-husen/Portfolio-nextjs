@@ -1,14 +1,16 @@
 .container {
-    background-color: #181818;
+    /* background-color: #181818; */
+    background-color: #fff;
     max-width: 100vw;
     /* padding: 0.2rem; */
     overflow-x: hidden;
     display: grid;
     place-items: center;
+    box-shadow: 0 1px 10px #cbcbcb;
 }
 
 .name {
-    color: #cfcfcf;
+    color: #262626;
     font-size: 0.9rem;
     font-weight: 600;
 }

@@ -1,118 +1,197 @@
+.container {
+  padding: 1rem 2rem;
+}
+
 .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .image {
-    flex: 0.5;
+  flex: 0.5;
 }
 
 .heading {
-    flex: 0.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .name {
-    font-size: 2rem;
-    font-weight: 500;
-    margin: 0;
-    color: #262626;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #262626;
+  text-align: center;
 }
 
 .name > span {
-    color: #0099cd;
+  color: #0099cd;
+  font-size: 1.8rem;
 }
 
 .btn {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 }
 
 .btn > button {
-    background-color: #0099cd;
-    padding: 0.7rem 1.4rem;
-    color: #fff;
-    border: 1.2px solid #F2F2F2;
-    border-radius: 0.2rem;
-    font-weight: 600;
-    font-size: 1.2em;
-    transition: 0.5s all ease-in;
-    cursor: pointer;
+  background-color: #0099cd;
+  padding: 0.7rem 1.4rem;
+  color: #fff;
+  border: 1.2px solid #f2f2f2;
+  border-radius: 0.2rem;
+  font-weight: 600;
+  font-size: 1.2em;
+  transition: 0.5s all ease-in;
+  cursor: pointer;
 }
 
 .btn > button:hover {
-    background-color: #F2F2F2;
-    color: #0099cd;
-    border: 1.2px solid #0099cd;
-    box-shadow: 0 0 5px #0099cd;
+  background-color: #f2f2f2;
+  color: #0099cd;
+  border: 1.2px solid #0099cd;
+  box-shadow: 0 0 5px #0099cd;
 }
 
 .icons {
-    display: flex;
-    gap: 0.8rem;
-    color: #0099cd;
-    margin: 1.5rem 0;
+  display: flex;
+  gap: 0.8rem;
+  color: #0099cd;
+  margin: 1.5rem 0;
 }
 
 .icons > :nth-child(1) {
-    color: #1f1f1f;
-    font-size: 2rem;
-    border-radius: 50%;
-    cursor: pointer;
+  color: #1f1f1f;
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .icons > :nth-child(1):hover {
-    box-shadow: 0 0 5px #777777;
+  box-shadow: 0 0 5px #777777;
 }
 
 .icons > :nth-child(2) {
-    color: #0099cd;
-    font-size: 2rem;
-    border-radius: 50%;
-    cursor: pointer;
+  color: #0099cd;
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .icons > :nth-child(2):hover {
-    box-shadow: 0 0 5px #0099cd;
+  box-shadow: 0 0 5px #0099cd;
 }
 
 .icons > :nth-child(3) {
-    color: #0080ff;
-    font-size: 2rem;
-    border-radius: 50%;
-    cursor: pointer;
+  color: #0080ff;
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .icons > :nth-child(3):hover {
-    box-shadow: 0 0 5px #0080ff;
+  box-shadow: 0 0 5px #0080ff;
 }
 
 .icons > :nth-child(4) {
-    color: #c7006b;
-    font-size: 2rem;
-    border-radius: 50%;
-    cursor: pointer;
+  color: #c7006b;
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .icons > :nth-child(4):hover {
-    box-shadow: 0 0 5px #c7006b;
+  box-shadow: 0 0 5px #c7006b;
 }
 
 .icons > :nth-child(5) {
-    color: #ff1593;
-    font-size: 2rem;
-    border-radius: 50%;
-    cursor: pointer;
+  color: #ff1593;
+  font-size: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .icons > :nth-child(5):hover {
-    box-shadow: 0 0 5px #ff1593;
+  box-shadow: 0 0 5px #ff1593;
 }
 
-
+/* for mobile */
 @media only screen and (max-width: 480px) {
-    .container {
-        flex-direction: column;
-    }    
+  .container {
+    flex-direction: column;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .name > span {
+    font-size: 1.2rem;
+  }
+
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .icons > * {
+    font-size: 1.5rem !important;
+  }
+
+  .btn > button {
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 1em;
+  }
+}
+
+/* for Ipad and Tablets */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .name {
+    font-size: 1.2rem !important;
+  }
+
+  .name > span {
+    font-size: 1.5rem !important;
+  }
+
+  .img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .icons > * {
+    font-size: 1.5rem !important;
+  }
+
+  .btn > button {
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 1em;
+  }
+}
+
+/* for laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .name {
+    font-size: 1.6rem;
+  }
+
+  .name > span {
+    font-size: 1.8rem;
+  }
+
+  .img {
+    width: 400px;
+    height: 400px;
+  }
 }
