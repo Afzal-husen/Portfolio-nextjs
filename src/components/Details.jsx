@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Details.module.css";
+import Skills from "./Skills";
+// import {FaHtml5} from "react-icons/fa"
 
 const Details = () => {
   return (
@@ -17,8 +19,9 @@ const Details = () => {
                 loading="lazy"
               />
             </div>
-            <div className={styles.head}>
+            <div className={styles.skills}>
               <h2>Full Stack Development</h2>
+              <Skills />
             </div>
           </div>
         </div>
