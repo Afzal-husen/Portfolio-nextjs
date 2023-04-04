@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Details.module.css";
 import Skills from "./Skills";
-// import {FaHtml5} from "react-icons/fa"
 
 const Details = () => {
   return (
@@ -10,13 +9,14 @@ const Details = () => {
         <div className={styles.wrapper}>
           <h1>Here's What I Do</h1>
           <div className={styles.detail_container}>
-            <div className={styles.img}>
+            <div className={styles.image}>
               <Image
-                src="/images/Hand.png"
+                src="/images/api.png"
                 width={400}
                 height={400}
                 quality={100}
                 loading="lazy"
+                className={styles.img}
               />
             </div>
             <div className={styles.skills}>

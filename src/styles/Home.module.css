@@ -28,7 +28,7 @@
 }
 
 .name > span {
-  color: #0099cd;
+  color: #1a8cff;
   font-size: 1.8rem;
 }
 
@@ -38,7 +38,8 @@
 }
 
 .btn > button {
-  background-color: #0099cd;
+  /* background-color: #0099cd; */
+  background-color: #1a8cff;
   padding: 0.7rem 1.4rem;
   color: #fff;
   border: 1.2px solid #f2f2f2;
@@ -51,9 +52,9 @@
 
 .btn > button:hover {
   background-color: #f2f2f2;
-  color: #0099cd;
-  border: 1.2px solid #0099cd;
-  box-shadow: 0 0 5px #0099cd;
+  color: #1a8cff;
+  border: 1.2px solid #1a8cff;
+  box-shadow: 0 0 5px #1a8cff;
 }
 
 .icons {
@@ -148,6 +149,10 @@
     font-weight: 600;
     font-size: 1em;
   }
+
+  .heading {
+    margin-top: 3rem;
+  }
 }
 
 /* for Ipad and Tablets */
@@ -177,6 +182,10 @@
     padding: 0.5rem 1.2rem;
     font-weight: 600;
     font-size: 1em;
+  }
+
+  .heading {
+    margin-top: 3rem;
   }
 }
 

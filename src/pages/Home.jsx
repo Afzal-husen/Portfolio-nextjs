@@ -43,7 +43,7 @@ const Home = () => {
             </div>
             <div className={styles.image}>
               <Image
-                src="/images/dev.png"
+                src="/images/man-1.png"
                 width={500}
                 height={500}
                 quality={100}

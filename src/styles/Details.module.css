@@ -22,15 +22,12 @@
 .detail_container {
     display: flex;
     align-items: center;
-    /* gap: 5rem; */
     justify-content: space-between;
+    gap: 2rem;
 }
 
-.img {
-    /* background-color:  #262626; */
-
+.image {
     flex: 0.5;
-    /* border: 1px solid black; */
     display: grid;
     place-items: center;
     border-radius: 2rem 0 0 2rem;
@@ -64,8 +61,7 @@
     }
 
     .skills h2 {
-        color: #262626;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin: 0;
         margin-bottom: 0.8rem;
     }
@@ -77,5 +73,28 @@
     .img {
         width: 300px;
         height: 300px;
+    }
+}
+
+/* for Ipad and Tablets */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .skills h2 {
+        font-size: 1.7rem;
+    }
+}
+
+/* for laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .skills h2 {
+        font-size: 1.7rem;
+    }
+
+    .detail_container {
+        gap: 2rem;
     }
 }
