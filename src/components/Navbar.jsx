@@ -12,9 +12,9 @@ const Navbar = () => {
                 <div className={styles.wrapper}>
                     <div className="logo-wrapper">
                         <Link href="/Home">
-                            <h1 className={styles.logo}>
+                            <p className={styles.logo}>
                                 &#9001; Afzal.Diwan &#9002;
-                            </h1>
+                            </p>
                         </Link>
                     </div>    
                     <div className={styles.pages}>

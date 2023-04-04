@@ -9,7 +9,20 @@
 .icon {
     font-size: 2.5rem;
     margin-right: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
 }
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.name {
+    font-size: initial;
+    background-color: rgb(229, 229, 229);
+    padding: 0.2rem 0.4rem;
+}
+
 
 /* for mobile */
 @media only screen and (max-width: 480px) {

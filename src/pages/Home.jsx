@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import DarkThemeLayout from "@/components/DarkThemeLayout";
 import Details from "@/components/Details";

@@ -1,5 +1,5 @@
 .container {
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
 }
 
 .wrapper {
@@ -21,7 +21,7 @@
 
 .name {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0;
   color: #262626;
   text-align: center;
@@ -203,4 +203,9 @@
     width: 400px;
     height: 400px;
   }
+}
+
+/* for Desktop */ 
+@media only screen and (min-width: 1025px ) and (max-width: 1200px) {
+  
 }
