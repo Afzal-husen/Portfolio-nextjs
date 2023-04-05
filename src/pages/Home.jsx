@@ -9,6 +9,7 @@ import {
   Google,
   Instagram,
 } from "@mui/icons-material";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -30,13 +31,27 @@ const Home = () => {
                 <div className={styles.btn}>
                   {/* social handles */}
                   <div className={styles.icons}>
-                    <GitHub />
-                    <Twitter />
-                    <LinkedIn />
-                    <Google />
-                    <Instagram />
+                    <a href="https://github.com/Afzal-husen" target="_blank">
+                      <GitHub />
+                    </a>
+                    <a>
+                      <Twitter />
+                    </a>
+                    <a>
+                      <LinkedIn />
+                    </a>
+                    <a>
+                      <Google />
+                    </a>
+                    <a>
+                      <Instagram />
+                    </a>
                   </div>
-                  <button>Contact Me</button>
+                  <button>
+                    <Link href="/Contact">
+                      Contact Me
+                    </Link>
+                  </button>
                 </div>
               </div>
             </div>

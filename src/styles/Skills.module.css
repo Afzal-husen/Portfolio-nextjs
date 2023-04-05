@@ -4,24 +4,46 @@
     /* gap: 1rem; */
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0.6rem 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s all ease;
+
+}
+
+.wrapper:hover {
+    transform: scale(1.2);
 }
 
 .icon {
     font-size: 2.5rem;
     margin-right: 1.5rem;
     cursor: pointer;
-    transition: 0.3s all ease;
+    position: relative;
 }
 
-.icon:hover {
+/* .icon:hover {
     transform: scale(1.2);
-}
+} */
 
 .name {
     font-size: initial;
     background-color: rgb(229, 229, 229);
     padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    transition: 0.3s all ease;
+    cursor: pointer;
 }
+
+/* .name:hover {
+    transform: scale(1.2);
+} */
+
 
 
 /* for mobile */
