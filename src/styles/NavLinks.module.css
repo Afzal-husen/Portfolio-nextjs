@@ -1,0 +1,72 @@
+
+.pages ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+}
+
+.page {
+    font-weight: 500;
+    opacity: 0.9;
+    cursor: pointer;
+    padding: 0.2rem 0.8rem;
+    color: #262626;
+    transition: 0.4s all ease;
+}
+
+.page:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 0.2rem;
+    background-color: #1a8cff;
+    color: #F2F2F2;
+    box-shadow: 0 0 1px #1a8cff;
+}
+
+
+/* for tablets and rest */
+@media only screen and (max-width: 769px) {
+    .pages ul {
+        display: none;
+    }
+
+    .active ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: center;
+        height: 100vh;
+        padding: 0;
+        gap: 3rem;
+    }
+
+    .page {
+        border: 1px solid #262626;
+        width: 100vw;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+/* for laptops */ 
+@media only screen and (min-width: 769px ) and (max-width: 1024px) {
+    .pages ul {
+        gap: 1rem;
+    }
+
+    .page {
+        font-size: 0.75rem;
+    }
+}
+
+/* for Desktop */ 
+@media only screen and (min-width: 1025px ) and (max-width: 1200px) {
+
+    .pages ul {
+        gap: 1.2rem;
+    }
+
+    .page {
+        font-size: 1.2rem;
+    }
+}
