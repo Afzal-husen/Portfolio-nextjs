@@ -11,7 +11,7 @@ const Details = () => {
           <div className={styles.detail_container}>
             <div className={styles.image}>
               <Image
-                src="/images/api.png"
+                src="/images/api-illustration.png"
                 width={400}
                 height={400}
                 className={styles.img}
