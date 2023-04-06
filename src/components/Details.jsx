@@ -15,7 +15,6 @@ const Details = () => {
                 width={400}
                 height={400}
                 quality={100}
-                loading="lazy"
                 className={styles.img}
               />
             </div>
