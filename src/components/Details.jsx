@@ -14,7 +14,6 @@ const Details = () => {
                 src="/images/api.png"
                 width={400}
                 height={400}
-                quality={100}
                 className={styles.img}
               />
             </div>
