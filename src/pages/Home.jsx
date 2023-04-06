@@ -31,20 +31,20 @@ const Home = () => {
                 <div className={styles.btn}>
                   {/* social handles */}
                   <div className={styles.icons}>
-                    <a href="https://github.com/Afzal-husen" target="_blank">
-                      <GitHub />
+                    <a  href="https://github.com/Afzal-husen" target="_blank">
+                      <GitHub className={styles.github} />
                     </a>
                     <a>
-                      <Twitter />
+                      <Twitter className={styles.twitter} />
                     </a>
                     <a>
-                      <LinkedIn />
+                      <LinkedIn className={styles.linkdn} />
                     </a>
                     <a>
-                      <Google />
+                      <Google className={styles.google} />
                     </a>
                     <a>
-                      <Instagram />
+                      <Instagram className={styles.insta} />
                     </a>
                   </div>
                   <button>

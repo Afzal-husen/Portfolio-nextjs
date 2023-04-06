@@ -1,6 +1,8 @@
 import Head from "next/head"
 import styles from "@/styles/Navbar.module.css"
 import Link from "next/link"
+import { FaCode } from "react-icons/fa"
+
 
 const Navbar = () => {
     return(
@@ -13,7 +15,8 @@ const Navbar = () => {
                     <div className="logo-wrapper">
                         <Link href="/Home">
                             <p className={styles.logo}>
-                                &#9001; Afzal.Diwan &#9002;
+                                {/* &#9001; Afzal.D &#9002; */}
+                                <span>A</span>fzal.<span>D</span>iwan 
                             </p>
                         </Link>
                     </div>    
