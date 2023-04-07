@@ -1,10 +1,13 @@
+import AboutMe from "@/components/AboutMe"
 import DarkThemeLayout from "@/components/DarkThemeLayout"
 
 
 const About = () => {
   return (
     <DarkThemeLayout>
-        <div>About</div>
+        <div>
+          <AboutMe />
+        </div>
     </DarkThemeLayout>
   )
 }
