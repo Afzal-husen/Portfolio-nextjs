@@ -7,7 +7,7 @@ const Logo = () => {
       <Link href="/Home">
         <p className={styles.logo}>
           {/* &#9001; Afzal.D &#9002; */}
-          <span>A</span>fzal.<span>D</span>iwan
+          <span>A</span>fzal.D
         </p>
       </Link>
     </div>

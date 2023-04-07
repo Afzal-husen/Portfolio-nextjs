@@ -37,14 +37,21 @@
         align-items: center;
         height: 100vh;
         padding: 0;
-        gap: 3rem;
+        gap: 2rem;
+        justify-content: flex-start;
+        transform: translateY(15%);
     }
 
+  
     .page {
-        border: 1px solid #262626;
-        width: 100vw;
-        font-size: 2rem;
+        border: 1px solid #1a8cff;
+        border-radius: 10px;
+        width: 50vw;
+        font-size: 1.2rem;
+        color: #1a8cff;
+        padding: 0;
         text-align: center;
+        flex: 1 1 auto;
     }
 }
 

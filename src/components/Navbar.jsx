@@ -13,7 +13,7 @@ const Navbar = ({ isOpen, setIsOpen }) => {
       <nav className={styles.container}>
         <div className={styles.wrapper}>
           <Logo />
-          <NavLinks />
+          <NavLinks isOpen={isOpen} setIsOpen={setIsOpen} />
           <Hamburger isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </nav>

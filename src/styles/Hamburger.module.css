@@ -1,7 +1,7 @@
 /* hamburger */
 .hamburger {
-    width: 2rem;
-    height: 2rem;
+    width: 1.4rem;
+    height: 1.4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -17,7 +17,7 @@
 }
 
 .activeSpan :first-child {
-    transform: rotate(-45deg) translate(-10px, 4px);
+    transform: rotate(-45deg) translate(-7px, 0px);
     transform-origin: center;
 
 }

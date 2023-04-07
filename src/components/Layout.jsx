@@ -17,7 +17,7 @@ const Layout = (props) => {
       <title>Afzal Diwan</title>
     </Head>
     <Navbar isOpen={isOpen} setIsOpen={setIsOpen}/>
-    <SideBar isOpen={isOpen} />
+    <SideBar isOpen={isOpen} setIsOpen={setIsOpen} />
     {props.children}
     <Footer />
     </div>
