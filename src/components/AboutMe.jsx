@@ -1,5 +1,7 @@
+import Card  from "../components/Card";
 import styles from "../styles/AboutMe.module.css";
 import Image from "next/image";
+import { certificates } from "@/utils/certificates.js";
 
 const AboutMe = () => {
   return (
@@ -17,9 +19,8 @@ const AboutMe = () => {
           <div className={styles.about}>
             <h2>About Me</h2>
             <p>
-              Hello and welcome to my personal portfolio! My name is Afzal
-              Diwan, and I am a MERN stack web developer based in
-              Gujarat-Bharuch. I am passionate about web Development and I like
+              Hello and welcome to my personal portfolio! My name is <span>Afzal
+              Diwan</span> , and I am a <span>MERN</span>  stack web developer based in <span>Gujarat-Bharuch</span>. I am passionate about web Development and I like
               to Read and listen to podcasts.
             </p>
           </div>
@@ -28,11 +29,25 @@ const AboutMe = () => {
             <p>
               I dropped out of aeronautical engineering after realizing it was
               not my passion. I then began tutoring for a year and discovered
-              coding, which I taught myself using free resources like YouTube
-              and paid resources like Udemy. Today, I I continue to study and
+              coding, which I <span>taught myself</span>  using free resources like <span>YouTube </span> 
+              and paid resources like <span>Udemy</span> . Today, I  continue to study and
               develop my coding skills while pursuing my career in the tech.
             </p>
           </div>
+        </div>
+      </div>
+      <div className={styles.certification}>
+        <h2>Certification</h2>
+        <div className={styles.cards}>
+          {certificates.map((cert) => (
+            <Card
+            key={cert.id}
+            bgColor={cert.bgColor}
+            nameOfOrg={cert.nameOfOrg}
+            title={cert.title}
+            logo={cert.logo}
+            />
+          ))}
         </div>
       </div>
     </div>

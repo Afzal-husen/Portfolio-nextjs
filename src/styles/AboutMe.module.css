@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .wrapper {
     display: flex;
     /* align-items: center; */
@@ -8,10 +14,10 @@
 .image_container {
     /* border: 1px solid black; */
     /* padding: 2rem; */
+    flex: 1;
 }
 
 .image {
-    flex: 1;
     /* border: 1px solid black; */
 }
 
@@ -34,11 +40,22 @@
 
 .about h2 {
     margin: 0;
+    color: #3a3a3a;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .about p {
     margin: 0;
+    color: #434343;
+    font-size: 1rem;
+    font-weight: 400;
     text-align: center;
+    text-transform: capitalize;
+}
 
+.about p span {
+    color: #1a8cff;
+    font-weight: 700;
 }
 
 .education {
@@ -51,10 +68,45 @@
 
 .education h2 {
     margin: 0;
+    color: #3a3a3a;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .education p {
     margin: 0;
+    color: #434343;
+    font-size: 1rem;
+    font-weight: 400;
     text-align: center;
+    text-transform: capitalize;
+}
+
+.education p span {
+    color: #1a8cff;
+    font-weight: 700;
+}
+
+.certification {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.certification h2 {
+    margin: 0;
+    color: #3a3a3a;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cards {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 3rem;
 }
 
 

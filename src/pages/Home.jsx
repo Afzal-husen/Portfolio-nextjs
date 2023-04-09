@@ -34,16 +34,16 @@ const Home = () => {
                     <a  href="https://github.com/Afzal-husen" target="_blank">
                       <GitHub className={styles.github} />
                     </a>
-                    <a>
+                    <a href="https://twitter.com/Afzal_Diwan_7" target="_blank">
                       <Twitter className={styles.twitter} />
                     </a>
-                    <a>
+                    <a href="https://www.linkedin.com/in/afzal-diwan-7202b8239/" target="_blank">
                       <LinkedIn className={styles.linkdn} />
                     </a>
-                    <a>
+                    <a href="mailto:afzalhusen3@gmail.com">
                       <Google className={styles.google} />
                     </a>
-                    <a>
+                    <a href="https://www.instagram.com/Afzal_Diwan_7/" target="_blank">
                       <Instagram className={styles.insta} />
                     </a>
                   </div>
