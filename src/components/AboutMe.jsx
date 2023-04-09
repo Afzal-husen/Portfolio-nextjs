@@ -9,9 +9,9 @@ const AboutMe = () => {
       <div className={styles.wrapper}>
         <div className={styles.image_container}>
           <Image
-            src="/images/dev.png"
+            src="/images/education.svg"
             width={500}
-            height={500}
+            height={400}
             className={styles.image}
           />
         </div>

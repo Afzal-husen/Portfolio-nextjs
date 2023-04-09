@@ -56,7 +56,7 @@ const Home = () => {
               </div>
             </div>
             <div className={styles.image}>
-              <Image
+              {/* <Image
                 src="/images/man-1.png"
                 width={500}
                 height={500}
@@ -64,6 +64,11 @@ const Home = () => {
                 alt="Work illustrations by Storyset"
                 className={styles.img}
                 loading="lazy"
+              /> */}
+              <Image
+              src={"/images/hello.svg"}
+              width={500}
+              height={500}
               />
             </div>
           </div>
