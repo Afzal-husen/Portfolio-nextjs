@@ -29,7 +29,7 @@ const Home = () => {
       typeSpeed: 20,
       backSpeed: 10,
       loop: true,
-      cursorChar: "|",
+      cursorChar: ".",
     };
 
     const typed = new Typed(el.current, options);
