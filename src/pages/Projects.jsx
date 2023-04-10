@@ -1,10 +1,35 @@
 import DarkThemeLayout from "@/components/DarkThemeLayout"
-
+import styles from "../styles/Projects.module.css"
+import Image from "next/image"
+import ProjectCard from "@/components/ProjectCard"
 
 const Projects = () => {
   return (
     <DarkThemeLayout>
-      <div>Projects</div>
+      <div className={styles.container}>
+        <div className={styles.wrapper_top}>
+          <div className={styles.image_wrapper}>
+              <Image
+                src={"/images/developer.svg"}
+                width={500}
+                height={500}
+                className={styles.image}
+              />
+          </div>
+          <div className={styles.intro_container}>
+            <div className={styles.intro_wrapper}>
+              <h2>Projects</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, blanditiis.</p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.wrapper_bottom}>
+          <ProjectCard />
+        </div>
+      </div>
     </DarkThemeLayout>
   )
 }

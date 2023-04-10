@@ -23,9 +23,6 @@ const NavLinks = ({type, setIsOpen}) => {
           <Link href="/Projects" onClick={handleClick}>
             <li className={styles.page}>Projects</li>
           </Link>
-          <Link href="/Education" onClick={handleClick}>
-            <li className={styles.page}>Education</li>
-          </Link>
           <Link href="/Contact" onClick={handleClick}>
             <li className={styles.page}>Contact</li>
           </Link>
