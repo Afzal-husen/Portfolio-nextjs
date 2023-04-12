@@ -10,8 +10,8 @@ const Projects = () => {
         <div className={styles.wrapper_top}>
           <div className={styles.image_wrapper}>
             <Image
-              src={"/images/developer.svg"}
-              width={500}
+              src={"/images/project.svg"}
+              width={400}
               height={500}
               className={styles.image}
             />
