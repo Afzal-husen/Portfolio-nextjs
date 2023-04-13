@@ -1,0 +1,129 @@
+
+
+.wrapper {
+    display: grid;
+    place-items: center;
+  }
+  
+  .wrapper > button {
+    /* background-color: #0099cd; */
+    background-color: #1a8cff;
+    padding: 0.7rem 1.4rem;
+    color: #fff;
+    border: 1.2px solid #f2f2f2;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    font-size: 1.2em;
+    transition: 0.5s all ease-in;
+    cursor: pointer;
+  }
+  
+  .wrapper > button:hover {
+    background-color: #f2f2f2;
+    color: #1a8cff;
+    border: 1.2px solid #1a8cff;
+    box-shadow: 0 0 5px #1a8cff;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem auto;
+    cursor: pointer;
+  }
+  
+  .icons a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .icons .github {
+    color: #262626;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all ease;
+  }
+  .icons .github:hover {
+    box-shadow: 0 0 10px #2b2b2b;
+    transform: scale(1.1);
+  }
+  
+  .icons .twitter {
+    color: #1b93de;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all ease;
+  }
+  .icons .twitter:hover {
+    box-shadow: 0 0 10px #1b93de;
+    transform: scale(1.1);
+  }
+  
+  .icons .linkdn {
+    color: #2c4be9;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all ease;
+  }
+  .icons .linkdn:hover {
+    box-shadow: 0 0 10px #2c4be9;
+    transform: scale(1.1);
+  }
+  
+  .icons .google {
+    color: #f21818;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all ease;
+  }
+  .icons .google:hover {
+    box-shadow: 0 0 10px #f21818;
+    transform: scale(1.1);
+  }
+  
+  .icons .insta {
+    color: #f45ec5;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all ease;
+  }
+  .icons .insta:hover {
+    box-shadow: 0 0 10px #f45ec5;
+    transform: scale(1.1);
+  }
+
+ /* for mobile */
+@media only screen and (max-width: 480px) {  
+    
+    .icons {
+      margin: 1.5rem auto;
+    }
+  
+    .icons a {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  
+  }
+  
+  /* for Ipad and Tablets */
+  @media only screen and (max-width: 768px) and (min-width: 481px) {  
+    .icons {
+      margin: 1.5rem auto;
+    }
+  
+    .icons a {
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+  
+  }
