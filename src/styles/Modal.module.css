@@ -1,7 +1,7 @@
 .container {
     display: none;
     width: 350px;
-    height: 200px;
+    /* height: 200px; */
     border: 1px solid black;
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -30,14 +30,46 @@
 
 .lists p {
     margin: 0;
+    color: #535353;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
 }
 
 .logo {
     /* border: 1px solid black; */
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
     font-size: 1.5rem;
 }
+
+.icon_detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconName {
+    font-size: 0.6rem;
+    border: 1px solid #1a8cff;
+    color: #1a8cff;
+    font-weight: 700;
+    padding: 0 0.2rem;
+    border-radius: 5px;
+    visibility: hidden;
+    transition: 0.2s all ease;
+}
+
+.iconName_active {
+    visibility: visible;
+}
+
+.icon {
+    cursor: pointer;
+}
+
 
 .buttons {
     display: flex;

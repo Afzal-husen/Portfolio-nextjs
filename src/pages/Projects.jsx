@@ -2,6 +2,7 @@ import DarkThemeLayout from "@/components/DarkThemeLayout";
 import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
+import { projects } from "@/utils/project.js";
 
 const Projects = () => {
   return (
@@ -39,11 +40,9 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.wrapper_bottom}>
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+          {projects.map((project) => (
+            <ProjectCard project={project} key={project.id}/>
+          ))}
         </div>
       </div>
     </DarkThemeLayout>

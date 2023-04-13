@@ -1,8 +1,12 @@
 import styles from "../styles/Modal.module.css";
 import { IoMdClose, IoLogoHtml5 } from "react-icons/io";
 import { BsFillLightningChargeFill } from "react-icons/bs";
+import { useState } from "react";
 
-const Modal = ({ openModal, setOpenModal }) => {
+const Modal = ({ openModal, setOpenModal, project }) => {
+  const [isMouseOver, setIsMouseOver] = useState(false);
+
+
   return (
     <div
       className={
@@ -11,25 +15,46 @@ const Modal = ({ openModal, setOpenModal }) => {
       <div className={styles.wrapper}>
         <div className={styles.lists}>
           <p>
-            <BsFillLightningChargeFill /> made using mui, react
+            <BsFillLightningChargeFill /> {project.desc[0]}
           </p>
           <p>
             <BsFillLightningChargeFill />
-            data fetched from third party API
+            {project.desc[1]}
           </p>
           <p>
             <BsFillLightningChargeFill />
-            resused components
+            {project.desc[2]}
           </p>
         </div>
         <div className={styles.logo}>
-          <IoLogoHtml5 />
-          <IoLogoHtml5 />
-          <IoLogoHtml5 />
+          {project.icons.map((icon) => (
+            <div className={styles.icon_detail} key={icon.id}>
+              <div
+                className={
+                  !isMouseOver
+                    ? styles.iconName
+                    : `${styles.iconName} ${styles.iconName_active}`
+                }>
+                {icon.iconName}
+              </div>
+              <div
+                onMouseOver={() => setIsMouseOver(true)}
+                onMouseOut={() => setIsMouseOver(false)}
+                className={styles.icon}>
+                {icon.icon}
+              </div>
+            </div>
+          ))}
         </div>
         <div className={styles.buttons}>
-            <button><a href="https://afzaldiwan.netlify.app/" target="_blank">View</a></button>
-            <button><a>code</a></button>
+          <button>
+            <a href="https://afzaldiwan.netlify.app/" target="_blank">
+              View
+            </a>
+          </button>
+          <button>
+            <a>code</a>
+          </button>
         </div>
       </div>
       <IoMdClose className={styles.close} onClick={() => setOpenModal(false)} />
