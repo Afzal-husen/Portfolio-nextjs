@@ -16,7 +16,7 @@ export const projects = [
       {
         id: 1,
         icon: <FaHtml5 style={{ color: "#e34c26" }} />,
-        iconName: "Html5",
+        iconName:"Html5",
       },
       {
         id: 2,

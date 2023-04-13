@@ -116,6 +116,14 @@
         width: 280px;
         height: 280px;
     }
+
+    .cards {
+        gap: 2rem;
+    }
+
+    .certification {
+        padding: 0;
+    }
 }
 
 

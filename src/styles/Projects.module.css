@@ -51,6 +51,11 @@
 
 /* for mobile */
 @media only screen and (max-width: 480px) {
+
+    .container {
+        padding: 1rem;
+    }
+
     .wrapper_top {
         flex-direction: column;
     }
