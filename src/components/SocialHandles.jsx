@@ -34,7 +34,7 @@ const SocialHandles = () => {
           </a>
         </div>
         <button>
-          <Link href="/Contact">Contact Me</Link>
+          <Link href="/Contact">My Resume</Link>
         </button>
       </div>
     </div>

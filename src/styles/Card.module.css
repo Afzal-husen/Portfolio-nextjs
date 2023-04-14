@@ -1,44 +1,48 @@
 .container {
-    box-shadow: 0 0 2px black;
-    border-radius: 10px;
-    width: 19rem;
-    cursor: pointer;
+  border-radius: 5px;
+  width: 19rem;
+  cursor: pointer;
+  box-shadow: 0 0 2px gray;
+  transition: 0.3s all ease;
+}
+
+.container:hover {
+  transform: scale(1.05);
 }
 
 .logo {
-    display: grid;
-    place-items: center;
-    padding: 0.8rem 0;
-    border-radius: 10px 10px 0 0; 
+  display: grid;
+  place-items: center;
+  padding: 0.8rem 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .logo_image {
-    font-size: 4rem;
-    display: grid;
-    place-items: center;
-    padding: 1rem;
-    border-radius: 50%;
-    background-color: #fff;
+  font-size: 4rem;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #fff;
 }
 
-
 .detail {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem;
 }
 
 .detail p {
-    margin: 0;
-    text-align: center;
-    font-weight: 600;
-    color: #3a3a3a;
-    font-size: 1.1rem;
-    text-transform: capitalize;
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  color: #3a3a3a;
+  font-size: 1.1rem;
+  text-transform: capitalize;
 }
 
 .detail p:last-child {
-    font-size: 1rem;
-    color: #646464;
+  font-size: 1rem;
+  color: #646464;
 }

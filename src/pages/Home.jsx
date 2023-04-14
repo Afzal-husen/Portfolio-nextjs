@@ -14,7 +14,7 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        `<span>Hello </span> I Am <span>Afzal Diwan</span>
+        `
         <br /> 
         A <span>MERN</span> Stack Developer
         <br /> 
@@ -40,7 +40,12 @@ const Home = () => {
           <div className={styles.wrapper}>
             <div className={styles.heading}>
               <div className={styles.typed}>
-                <h4 ref={el} className={styles.name}></h4>
+                <div>
+                  <h4 className={styles.name}>
+                    <span>Hello </span> I Am <span>Afzal Diwan</span>
+                  </h4>
+                  <h4 ref={el} className={styles.name}></h4>
+                </div>
                 <Button />
               </div>
             </div>

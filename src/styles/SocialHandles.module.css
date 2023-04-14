@@ -6,11 +6,10 @@
   }
   
   .wrapper > button {
-    /* background-color: #0099cd; */
     background-color: #1a8cff;
     padding: 0.7rem 1.4rem;
     color: #fff;
-    border: 1.2px solid #f2f2f2;
+    border: 1.4px solid #f2f2f2;
     border-radius: 0.2rem;
     font-weight: 600;
     font-size: 1.2em;
@@ -19,10 +18,9 @@
   }
   
   .wrapper > button:hover {
-    background-color: #f2f2f2;
+    background-color: transparent;
     color: #1a8cff;
-    border: 1.2px solid #1a8cff;
-    box-shadow: 0 0 5px #1a8cff;
+    border: 1.4px solid #1a8cff;
   }
   
   .icons {

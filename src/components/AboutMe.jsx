@@ -1,4 +1,4 @@
-import Card  from "../components/Card";
+import Card from "../components/Card";
 import styles from "../styles/AboutMe.module.css";
 import Image from "next/image";
 import { certificates } from "@/utils/certificates.js";
@@ -19,19 +19,24 @@ const AboutMe = () => {
           <div className={styles.about}>
             <h2>About Me</h2>
             <p>
-              Hello and welcome to my personal portfolio! My name is <span>Afzal
-              Diwan</span> , and I am a <span>MERN</span>  stack web developer based in <span>Gujarat-Bharuch</span>. I am passionate about web Development and I like
-              to Read and listen to podcasts.
+              Hello and welcome to my personal portfolio! My name is{" "}
+              <span>Afzal Diwan</span> , and I am a <span>MERN</span> stack web
+              developer based in <span>Gujarat-Bharuch</span>. I am passionate
+              about web Development and I like to Read and listen to podcasts.
             </p>
           </div>
           <div className={styles.education}>
             <h2>Education</h2>
             <p>
-              I dropped out of aeronautical engineering after realizing it was
-              not my passion. I then began tutoring for a year and discovered
-              coding, which I <span>taught myself</span>  using free resources like <span>YouTube </span> 
-              and paid resources like <span>Udemy</span> . Today, I  continue to study and
-              develop my coding skills while pursuing my career in the tech.
+              I am a 10+2 pass out with science background, i chose b-tech in
+              <span> aeronautical enginneeing </span> but soon i realised it was{" "}
+              <span> not my passion </span>, so i dropped out. after sometime i
+              started tutoring school children. after a year i discovered the
+              world of <span> coding & programming </span>. I started{" "}
+              <span> learning to code </span> using free resources like
+              <span> youtube </span> and paid resources like{" "}
+              <span> udemy </span>.Today, I Continue To Study And Develop My
+              Coding Skills While Pursuing My Career In The Tech.
             </p>
           </div>
         </div>
@@ -41,11 +46,11 @@ const AboutMe = () => {
         <div className={styles.cards}>
           {certificates.map((cert) => (
             <Card
-            key={cert.id}
-            bgColor={cert.bgColor}
-            nameOfOrg={cert.nameOfOrg}
-            title={cert.title}
-            logo={cert.logo}
+              key={cert.id}
+              bgColor={cert.bgColor}
+              nameOfOrg={cert.nameOfOrg}
+              title={cert.title}
+              logo={cert.logo}
             />
           ))}
         </div>
