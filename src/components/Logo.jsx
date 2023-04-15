@@ -1,13 +1,13 @@
 import styles from "../styles/Logo.module.css"
 import Link from "next/link";
+import { FaAudioDescription } from "react-icons/fa";
 
 const Logo = () => {
   return (
     <div className="logo-wrapper">
       <Link href="/Home">
         <p className={styles.logo}>
-          {/* &#9001; Afzal.D &#9002; */}
-          <span>A</span>fzal.D
+          <span><FaAudioDescription /></span>Afzal.Diwan
         </p>
       </Link>
     </div>

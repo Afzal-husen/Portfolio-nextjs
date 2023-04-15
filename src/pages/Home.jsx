@@ -14,12 +14,8 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        `
-        <br /> 
-        A <span>MERN</span> Stack Developer
-        <br /> 
-        A <span>Learning</span> Enthusiast
-        `,
+        `A <span>MERN</span> Stack Developer`,
+        `A <span>Learning</span> Enthusiast`,
       ],
       typeSpeed: 20,
       backSpeed: 10,

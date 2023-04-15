@@ -12,7 +12,7 @@ const Layout = (props) => {
 
 
   return (
-    <div>
+    <>
     <Head>
       <title>Afzal Diwan</title>
     </Head>
@@ -20,7 +20,7 @@ const Layout = (props) => {
     <SideBar isOpen={isOpen} setIsOpen={setIsOpen} />
     {props.children}
     <Footer />
-    </div>
+    </>
   )
 }
 

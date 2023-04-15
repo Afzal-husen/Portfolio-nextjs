@@ -1,17 +1,18 @@
 .logo {
     margin: 0;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 0.7rem;
     color: #323232;
     cursor: pointer;
     transition: 0.5s all ease;
     display: flex;
     align-items: center;
+    gap: 0.3rem;
 }
 
 .logo span {
     color: #1a8cff;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 

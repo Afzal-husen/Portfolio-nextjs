@@ -4,7 +4,7 @@ import styles from "../styles/Button.module.css"
 const Button = () => {
     return (
         <button className={styles.button}>
-        <Link href="/Contact">Contact Me</Link>
+        <Link href="/Contact">Hire Me</Link>
       </button>
     )
 }
