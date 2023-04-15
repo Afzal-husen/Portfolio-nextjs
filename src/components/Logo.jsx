@@ -4,11 +4,9 @@ import { FaAudioDescription } from "react-icons/fa";
 
 const Logo = () => {
   return (
-    <div className="logo-wrapper">
+    <div className={styles.logo_wrapper}>
       <Link href="/Home">
-        <p className={styles.logo}>
-          <span><FaAudioDescription /></span>Afzal.Diwan
-        </p>
+          <FaAudioDescription  className={styles.logo}/>
       </Link>
     </div>
   );

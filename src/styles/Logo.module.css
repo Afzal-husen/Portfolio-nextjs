@@ -1,4 +1,4 @@
-.logo {
+/* .logo {
     margin: 0;
     font-weight: 500;
     font-size: 0.7rem;
@@ -8,15 +8,26 @@
     display: flex;
     align-items: center;
     gap: 0.3rem;
+} */
+
+.logo_wrapper {
+    padding-top: 0.5rem;
 }
 
-.logo span {
+.logo {
+    font-size: 2rem;
+    color: #1a8cff;
+}
+
+/* .logo span {
     color: #1a8cff;
     font-size: 2rem;
     font-weight: 500;
-}
+} */
 
 /* for mobile */
 @media only screen and (max-width: 480px) {
-   
+    .logo_wrapper {
+        padding-top: 0.4rem;
+    }
 }

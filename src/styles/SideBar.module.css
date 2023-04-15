@@ -1,23 +1,30 @@
 .container {
-    background-color: #fff;
-    position: absolute;
-    z-index: 3;
-    top: 3.1rem;
-    width: 100%;
-    transform: translateY(-100%);
-    padding: 1rem 0;
-    transition: 0.4s all ease-out;
+  background-color: #fff;
+  position: absolute;
+  z-index: 3;
+  top: 3.1rem;
+  width: 100%;
+  transform: translateY(-100%);
+  padding: 1rem 0;
+  transition: 0.4s all ease-out;
 }
 
 .active {
-    position: sticky;
-    transform: translateY(0);
-    transition: 0.4s all ease-in;
+  position: sticky;
+  transform: translateY(0);
+  transition: 0.4s all ease-in;
 }
 
 /* for mobile */
 @media only screen and (max-width: 480px) {
-    .container {
-        top: 3.5rem;
-    }
+  .container {
+    top: 2.8rem;
+  }
+}
+
+/* for Ipad and Tablets */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .container {
+    top: 2.8rem;
+  }
 }
