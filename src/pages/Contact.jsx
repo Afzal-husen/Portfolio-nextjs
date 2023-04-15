@@ -15,9 +15,7 @@ const Contact = () => {
             <div className={styles.contact}>
               <h2>Contact</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
-                aperiam ducimus, maiores aut voluptatibus natus nihil enim
-                voluptatem facere quam.
+              Thank you for your interest in reaching out to me. If you have any questions or feedback, please feel free to get in touch with me through the below social media handles below. I'll do my best to get back to you as soon as possible.
               </p>
             </div>
             <SocialHandles />

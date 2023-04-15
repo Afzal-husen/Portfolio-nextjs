@@ -55,6 +55,7 @@
   }
 
   .typed {
+    width: 15rem;
     height: 200px;
     align-items: center;
   }

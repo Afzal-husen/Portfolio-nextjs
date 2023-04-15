@@ -38,7 +38,7 @@ const Home = () => {
               <div className={styles.typed}>
                 <div>
                   <h4 className={styles.name}>
-                    <span>Hello </span> I Am <span>Afzal Diwan</span>
+                    <span>Hello 👋</span> I Am <span>Afzal Diwan</span>
                   </h4>
                   <h4 ref={el} className={styles.name}></h4>
                 </div>

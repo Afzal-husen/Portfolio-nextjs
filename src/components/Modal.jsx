@@ -48,12 +48,12 @@ const Modal = ({ openModal, setOpenModal, project }) => {
         </div>
         <div className={styles.buttons}>
           <button>
-            <a href="https://afzaldiwan.netlify.app/" target="_blank">
+            <a href={project.siteUrl} target="_blank">
               View
             </a>
           </button>
           <button>
-            <a>code</a>
+            <a  href={project.codeUrl} target="_blank" >code</a>
           </button>
         </div>
       </div>

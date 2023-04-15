@@ -51,3 +51,19 @@ If you're interested in working with me or learning more about my projects, plea
 After completing my 12th science examination with a score of 70%, I pursued a degree in aeronautical engineering. However, I eventually realized that it was not my true passion and decided to drop out of the program. I began tutoring students in the field of science and mathematics, which gave me a new perspective on teaching and learning. After a year of tutoring, I stumbled upon the world of coding and immediately became hooked. I started learning programming languages on my own and discovered a new passion that I had never felt before. Today, I continue to study and develop my coding skills while pursuing my career in the tech indust
 
 I dropped out of aeronautical engineering after passing my 12th science examination with 70%. I began tutoring for a year before discovering my love for coding. I taught myself using both free and paid resources like YouTube and Udemy. Now, I pursue a career in tech. -->
+
+
+<!-- In my journey as a web developer, I have worked on several exciting projects using different tools and technologies. Here are a few examples:
+
+Online Food Ordering System: Built a dynamic web application using React.js, Node.js, and MongoDB, allowing users to order food from a variety of restaurants and cuisines.
+
+E-learning Platform: Developed an e-learning platform using Angular.js and Firebase, allowing teachers to create courses and students to enroll and learn at their own pace.
+
+Portfolio Management Tool: Created a portfolio management tool using Ruby on Rails and PostgreSQL, enabling users to track their investments and manage their portfolios.
+
+Responsive Web Design: Designed and developed a responsive website using HTML, CSS, and JavaScript, showcasing my skills in front-end web development.
+
+Chat Application: Built a real-time chat application using Socket.io and Express.js, allowing users to chat with each other in private or group conversations.
+
+These projects demonstrate my proficiency in a wide range of technologies and highlight my passion for building engaging and user-friendly web applications. I am always eager to take on new challenges and continue learning to stay up-to-date with the latest web development trends -->
+

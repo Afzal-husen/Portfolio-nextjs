@@ -9,10 +9,12 @@
 }
 
 .image_container {
+    flex: 0.4;
 }
 
 .contact_detail {
     padding: 2rem;
+    flex: 0.8;
 
 }
 
