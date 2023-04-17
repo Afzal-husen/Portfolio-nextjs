@@ -10,6 +10,7 @@ import {
 
 
 const SocialHandles = () => {
+
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
@@ -34,7 +35,7 @@ const SocialHandles = () => {
           </a>
         </div>
         <button>
-          <Link href="/Contact">My Resume</Link>
+          <a href="https://file-download-api.onrender.com/download/resume.pdf">My Resume</a>
         </button>
       </div>
     </div>
@@ -42,3 +43,4 @@ const SocialHandles = () => {
 };
 
 export default SocialHandles;
+
